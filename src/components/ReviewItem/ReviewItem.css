@@ -24,32 +24,32 @@
     color: #1C2B35;
 }
 
-.review-detail{
+.review-detail {
     flex-grow: 1;
 }
 
-.review-detail p{
-   margin: 0 15px;
+.review-detail p {
+    margin: 0 15px;
 }
 
-.orange-text{
+.orange-text {
     color: #FF9900;
 }
 
 /* delete button style*/
-.btn-delete{
+.btn-delete {
     width: 55px;
     height: 55px;
     border-radius: 50%;
     background: rgba(235, 87, 87, 0.3);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.delete-icon{
-   font-size: 27px;
-   color: #EB5757;
+.delete-icon {
+    font-size: 27px;
+    color: #EB5757;
 
 }

@@ -7,9 +7,9 @@ const cartProductsLoader = async () => {
     // if cart data is in database, we've to use async await
     const storedCart = getShoppingCart();
     const savedCart = [];
-    for(const id in storedCart){
+    for (const id in storedCart) {
         const addedProduct = products.find(pd => pd.id === id);
-        if(addedProduct){
+        if (addedProduct) {
             const quantity = storedCart[id];
             addedProduct.quantity = quantity;
             savedCart.push(addedProduct);

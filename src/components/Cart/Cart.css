@@ -1,7 +1,20 @@
-.cart{
+.cart {
     background: rgba(255, 153, 0, 0.3);
+    border-radius: 8px;
     position: sticky;
     top: 0;
-    height: 80%;
-    padding: 40px;
+    height: 100%;
+    padding: 15px;
+}
+
+.btn-clear-cart {
+    width: 100%;
+    font-size: 21px;
+    color: #fff;
+    background: #FF3030;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 15px 15px;
 }
