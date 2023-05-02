@@ -20,6 +20,11 @@ nav.header a {
     color: #FFFFFF;
 }
 
-nav.header a:hover{
+nav.header a:hover {
     color: orange;
+}
+
+.text-white {
+    color: #FFFFFF;
+    margin-left: 5px;
 }
